@@ -5,7 +5,7 @@ A Number Guessing Game
  - Main program
 	- guess.exe
  - Source code
-	-guess.cpp
+	- guess.cpp
  - Documentation
 	- readme.txt (this file)
 
