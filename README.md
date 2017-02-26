@@ -31,6 +31,7 @@ If the guess is correct the player wins and all the past guesses will be printed
 ## Updates:
  - Use of boolean ```guessed``` array and ```order``` array
  - Optimization of logic flow (got rid of redundant branching)
+ - Adds back ```#include <time.h>```
 
 ## Language Used and Tested Environment:
 C++ (compiled using CLang++ with MinGW G++), Windows 10 on Intel i5 with 4GB RAM
