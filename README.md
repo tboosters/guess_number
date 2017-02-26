@@ -7,7 +7,7 @@ A Number Guessing Game
  - Source code
 	- guess.cpp
  - Documentation
-	- readme.txt (this file)
+	- README.md (this file)
 
 ## Game Objective:
  - The player need to guess a number from 1 to 100 to win
