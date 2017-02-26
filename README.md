@@ -1,4 +1,4 @@
-# Guess Number Game v1.0
+# Guess Number Game v1.1
 A Number Guessing Game
 
 ## Contents:
@@ -24,13 +24,13 @@ A Number Guessing Game
 2. Keep guessing until you make it
 
 ## Concepts:
-  A ```guessed``` array is used to record guesses. When a guess is made by the player, its validity
-is firstly checked. If it is valid, it will then be compared to the answer: if it is correct,
-the player wins and all the past guesses will be printed with the total number of guesses made;
-if it is too large or too small, a ```check``` function will be triggered to see if the number has
-been guessed before. If the number has been guessed, the player will be prompted to input another
-guess; if not, the number will be added to the ```guessed``` array and the number of guesses will be
-incremented.
+  A ```guessed``` boolean array of size 100 is used to record guesses. When a guess is made by the player, its validity
+is firstly checked. If it is valid, it will then be compared to ```guessed``` array: if it is guessed, player will be promted to enter another number; if not, the corresponding entry in ```guessed``` will be set to true and the number will be added to ```order``` array. The number of guesses will be also be incremented. 
+If the guess is correct the player wins and all the past guesses will be printed with the total number of guesses made; if it is too large or too small, corresponding hints will be prompted.
+
+## Updates:
+ - Use of boolean ```guessed``` array and ```order``` array
+ - Optimization of logic flow (got rid of redundant branching)
 
 ## Language Used and Tested Environment:
-C++ (compiled with MinGW G++), Windows 10 on Intel i5 with 4GB RAM
+C++ (compiled using CLang++ with MinGW G++), Windows 10 on Intel i5 with 4GB RAM
